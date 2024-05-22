@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px;
+}
+
+#buttons {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameOver {
+    display: none;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(198, 8, 8);
+}
